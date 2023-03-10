@@ -6,4 +6,10 @@ Running MLOPS Zoomcamp on GCP
 
 # https://youtu.be/y-l6FLSsCz0
 
+# To create enviornment with conda
+
+conda create -n <name_of_enviornment> python=3.9
+
+
+
 
