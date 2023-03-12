@@ -38,4 +38,16 @@ lsof -i :5000
 and then
 kill -9 <port_number>
 
+# If you are not able to see the experiment runs in mlflow ui then do the following
+
+1. Clear the 5000 port
+2. Close anything in it with the following commmand
+a. lsof -i :5000
+b. kill -9 <port_number>
+
+3. Open the models folder created earlier.
+4. Move there
+5. Run the following command
+mlflow ui --backend-store-uri sqlite:///mlflow.db
+
 
